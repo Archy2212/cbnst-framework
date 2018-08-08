@@ -1,11 +1,15 @@
+var f=function(x){
+return ((x*x*x)-(5*x)+1);
+}
+
 var main=function(a,b){
-  if(f(a)*f(b)>=0)
+  if( f(a)*f(b)>=0 )
   {
     console.log("the interval is wrong!");
   }
   else {
     console.log("right interval");
-  }
+
   var x=0;
   var x1=0;
   var i=0;
@@ -23,5 +27,6 @@ var main=function(a,b){
       a=x;
     }
   }while (f(a)*f(b)<0)
+}
 }
 exports.main=main;
