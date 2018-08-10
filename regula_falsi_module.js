@@ -6,7 +6,7 @@ else {
     }
 }
 
-var e = 0.0005;
+var e = 0.00005;
 var f=function(x){
 return ((x*x*x)-(5*x)+1);
 }
