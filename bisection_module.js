@@ -16,7 +16,7 @@ var main=function(a,b){
   do{
     var x=(a+b)/2;
     if(x==x1){
-      console.log("the root is:"+x);
+      console.log("the root is: "+x);
       break;
     }
     x1=x;
