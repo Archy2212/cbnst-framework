@@ -8,7 +8,7 @@ var main=function(a,b){
     console.log("the interval is wrong!");
   }
   else {
-    console.log("right interval");
+    console.log("right interval!");
 
   var x=0;
   var x1=0;
